@@ -1,0 +1,98 @@
+command : ython3 tool/volatility3/vol.py -f memdump.mem windows.pslist --> liste des processus en mémoire
+
+Volatility 3 Framework 2.28.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output
+
+4	0	System	0xce0652a67200	125	-	N/A	False	2024-09-10 05:28:40.000000 UTC	N/A	Disabled
+104	4	Registry	0xce0652ba8040	4	-	N/A	False	2024-09-10 05:28:33.000000 UTC	N/A	Disabled
+300	4	smss.exe	0xce06540a10c0	2	-	N/A	False	2024-09-10 05:28:40.000000 UTC	N/A	Disabled
+408	396	csrss.exe	0xce0654cb70c0	11	-	0	False	2024-09-10 05:29:02.000000 UTC	N/A	Disabled
+484	476	csrss.exe	0xce0654e7d140	10	-	1	False	2024-09-10 05:29:04.000000 UTC	N/A	Disabled
+508	396	wininit.exe	0xce0654e9a080	1	-	0	False	2024-09-10 05:29:04.000000 UTC	N/A	Disabled
+556	476	winlogon.exe	0xce0654eb60c0	4	-	1	False	2024-09-10 05:29:04.000000 UTC	N/A	Disabled
+628	508	services.exe	0xce0654eba080	7	-	0	False	2024-09-10 05:29:06.000000 UTC	N/A	Disabled
+640	508	lsass.exe	0xce0654ed8080	7	-	0	False	2024-09-10 05:29:07.000000 UTC	N/A	Disabled
+768	628	svchost.exe	0xce0654f75080	1	-	0	False	2024-09-10 05:29:12.000000 UTC	N/A	Disabled
+792	628	svchost.exe	0xce0654f69080	14	-	0	False	2024-09-10 05:29:12.000000 UTC	N/A	Disabled
+820	508	fontdrvhost.ex	0xce0654f660c0	5	-	0	False	2024-09-10 05:29:12.000000 UTC	N/A	Disabled
+816	556	fontdrvhost.ex	0xce0654f67080	5	-	1	False	2024-09-10 05:29:12.000000 UTC	N/A	Disabled
+908	628	svchost.exe	0xce0654fa4080	13	-	0	False	2024-09-10 05:29:14.000000 UTC	N/A	Disabled
+956	628	svchost.exe	0xce0654f9b700	6	-	0	False	2024-09-10 05:29:15.000000 UTC	N/A	Disabled
+1016	556	dwm.exe	0xce0656c62080	16	-	1	False	2024-09-10 05:29:17.000000 UTC	N/A	Disabled
+660	628	svchost.exe	0xce0656cc30c0	5	-	0	False	2024-09-10 05:29:22.000000 UTC	N/A	Disabled
+1124	628	svchost.exe	0xce0656d76080	2	-	0	False	2024-09-10 05:29:25.000000 UTC	N/A	Disabled
+1132	628	svchost.exe	0xce0656d74080	9	-	0	False	2024-09-10 05:29:25.000000 UTC	N/A	Disabled
+1144	628	svchost.exe	0xce0656d70080	3	-	0	False	2024-09-10 05:29:25.000000 UTC	N/A	Disabled
+1236	628	svchost.exe	0xce0656de9080	2	-	0	False	2024-09-10 05:29:26.000000 UTC	N/A	Disabled
+1292	628	svchost.exe	0xce0656de0080	3	-	0	False	2024-09-10 05:29:27.000000 UTC	N/A	Disabled
+1308	628	svchost.exe	0xce0656ddc080	3	-	0	False	2024-09-10 05:29:27.000000 UTC	N/A	Disabled
+1316	628	svchost.exe	0xce0656dda080	7	-	0	False	2024-09-10 05:29:27.000000 UTC	N/A	Disabled
+1324	628	svchost.exe	0xce0656dd8080	2	-	0	False	2024-09-10 05:29:27.000000 UTC	N/A	Disabled
+1396	628	svchost.exe	0xce0656e44080	3	-	0	False	2024-09-10 05:29:29.000000 UTC	N/A	Disabled
+1440	628	svchost.exe	0xce0656e3e080	7	-	0	False	2024-09-10 05:29:29.000000 UTC	N/A	Disabled
+1468	628	svchost.exe	0xce0656e33080	3	-	0	False	2024-09-10 05:29:29.000000 UTC	N/A	Disabled
+1512	628	svchost.exe	0xce0656dcc080	11	-	0	False	2024-09-10 05:29:31.000000 UTC	N/A	Disabled
+1520	628	svchost.exe	0xce0656e2c0c0	9	-	0	False	2024-09-10 05:29:31.000000 UTC	N/A	Disabled
+1576	628	svchost.exe	0xce0656ecf080	8	-	0	False	2024-09-10 05:29:32.000000 UTC	N/A	Disabled
+1584	628	svchost.exe	0xce0656ecd0c0	3	-	0	False	2024-09-10 05:29:32.000000 UTC	N/A	Disabled
+1628	628	svchost.exe	0xce0656ec1080	18	-	0	False	2024-09-10 05:29:32.000000 UTC	N/A	Disabled
+1680	628	svchost.exe	0xce0656eb4080	4	-	0	False	2024-09-10 05:29:34.000000 UTC	N/A	Disabled
+1728	628	svchost.exe	0xce0656eaa080	14	-	0	False	2024-09-10 05:29:35.000000 UTC	N/A	Disabled
+1808	628	svchost.exe	0xce0656f94080	5	-	0	False	2024-09-10 05:29:38.000000 UTC	N/A	Disabled
+1864	628	svchost.exe	0xce0656f87080	11	-	0	False	2024-09-10 05:29:39.000000 UTC	N/A	Disabled
+1996	628	svchost.exe	0xce0654ec2080	3	-	0	False	2024-09-10 05:29:44.000000 UTC	N/A	Disabled
+780	628	svchost.exe	0xce0657052080	5	-	0	False	2024-09-10 05:29:50.000000 UTC	N/A	Disabled
+776	628	svchost.exe	0xce0657050080	3	-	0	False	2024-09-10 05:29:50.000000 UTC	N/A	Disabled
+2072	628	svchost.exe	0xce065703e080	8	-	0	False	2024-09-10 05:29:52.000000 UTC	N/A	Disabled
+2128	628	spoolsv.exe	0xce065700d5c0	8	-	0	False	2024-09-10 05:29:53.000000 UTC	N/A	Disabled
+2276	628	svchost.exe	0xce06570a7080	9	-	0	False	2024-09-10 05:30:04.000000 UTC	N/A	Disabled
+2284	628	svchost.exe	0xce06570a5080	5	-	0	False	2024-09-10 05:30:04.000000 UTC	N/A	Disabled
+2296	628	svchost.exe	0xce0654d5a080	1	-	0	False	2024-09-10 05:30:04.000000 UTC	N/A	Disabled
+2304	628	svchost.exe	0xce0654d4e0c0	16	-	0	False	2024-09-10 05:30:04.000000 UTC	N/A	Disabled
+2340	628	svchost.exe	0xce065711c300	1	-	0	False	2024-09-10 05:30:04.000000 UTC	N/A	Disabled
+2360	628	svchost.exe	0xce06571872c0	4	-	0	False	2024-09-10 05:30:04.000000 UTC	N/A	Disabled
+2404	628	svchost.exe	0xce065719a2c0	3	-	0	False	2024-09-10 05:30:04.000000 UTC	N/A	Disabled
+2440	628	svchost.exe	0xce06571a3300	4	-	0	False	2024-09-10 05:30:04.000000 UTC	N/A	Disabled
+2452	628	svchost.exe	0xce06571cb280	15	-	0	False	2024-09-10 05:30:04.000000 UTC	N/A	Disabled
+2492	628	svchost.exe	0xce0654e8b080	13	-	0	False	2024-09-10 05:30:04.000000 UTC	N/A	Disabled
+2516	628	svchost.exe	0xce0654ecb080	5	-	0	False	2024-09-10 05:30:05.000000 UTC	N/A	Disabled
+2552	628	wlms.exe	0xce06571dd080	2	-	0	False	2024-09-10 05:30:06.000000 UTC	N/A	Disabled
+2632	628	MsMpEng.exe	0xce06571e3080	7	-	0	False	2024-09-10 05:30:07.000000 UTC	N/A	Disabled
+2760	628	svchost.exe	0xce0657293080	6	-	0	False	2024-09-10 05:30:12.000000 UTC	N/A	Disabled
+2784	628	svchost.exe	0xce0654ed3080	8	-	0	False	2024-09-10 05:30:13.000000 UTC	N/A	Disabled
+2868	628	svchost.exe	0xce06572d7080	14	-	0	False	2024-09-10 05:30:16.000000 UTC	N/A	Disabled
+2180	628	svchost.exe	0xce0656ddd080	3	-	1	False	2024-09-10 05:31:50.000000 UTC	N/A	Disabled
+2172	2072	sihost.exe	0xce06571d5080	5	-	1	False	2024-09-10 05:31:50.000000 UTC	N/A	Disabled
+1640	628	svchost.exe	0xce0656f9c080	4	-	1	False	2024-09-10 05:31:50.000000 UTC	N/A	Disabled
+752	1628	taskhostw.exe	0xce06574c3080	4	-	1	False	2024-09-10 05:31:50.000000 UTC	N/A	Disabled
+2472	1628	MicrosoftEdgeU	0xce06570b1080	4	-	0	True	2024-09-10 05:31:51.000000 UTC	N/A	Disabled
+1748	628	svchost.exe	0xce06571cf080	3	-	0	False	2024-09-10 05:31:54.000000 UTC	N/A	Disabled
+928	1748	ctfmon.exe	0xce0656f4f080	9	-	1	False	2024-09-10 05:31:57.000000 UTC	N/A	Disabled
+3580	628	svchost.exe	0xce06571a1080	5	-	0	False	2024-09-10 05:32:02.000000 UTC	N/A	Disabled
+3508	628	svchost.exe	0xce06570b2080	3	-	0	False	2024-09-10 05:32:06.000000 UTC	N/A	Disabled
+3856	628	svchost.exe	0xce0657309080	7	-	0	False	2024-09-10 05:32:27.000000 UTC	N/A	Disabled
+3908	556	userinit.exe	0xce06575f1080	0	-	1	False	2024-09-10 05:32:30.000000 UTC	2024-09-10 05:33:50.000000 UTC	Disabled
+3976	3908	explorer.exe	0xce0657486080	36	-	1	False	2024-09-10 05:32:32.000000 UTC	N/A	Disabled
+4028	628	svchost.exe	0xce0656e30080	6	-	0	False	2024-09-10 05:32:36.000000 UTC	N/A	Disabled
+2244	628	msdtc.exe	0xce065784b080	9	-	0	False	2024-09-10 05:33:19.000000 UTC	N/A	Disabled
+1892	628	svchost.exe	0xce0656ca4080	8	-	0	False	2024-09-10 05:33:30.000000 UTC	N/A	Disabled
+412	628	svchost.exe	0xce065791a080	1	-	0	False	2024-09-10 05:33:32.000000 UTC	N/A	Disabled
+4092	792	ShellExperienc	0xce065772b080	13	-	1	False	2024-09-10 05:33:35.000000 UTC	N/A	Disabled
+2696	792	SearchUI.exe	0xce065730d080	14	-	1	False	2024-09-10 05:33:42.000000 UTC	N/A	Disabled
+2036	792	RuntimeBroker.	0xce0656dd40c0	3	-	1	False	2024-09-10 05:33:46.000000 UTC	N/A	Disabled
+1052	628	svchost.exe	0xce0657783080	7	-	0	False	2024-09-10 05:34:00.000000 UTC	N/A	Disabled
+1704	792	RuntimeBroker.	0xce06579ad080	1	-	1	False	2024-09-10 05:34:01.000000 UTC	N/A	Disabled
+4200	4156	RegSvcs.exe	0xce06577c5080	4	-	1	True	2024-09-10 05:34:26.000000 UTC	N/A	Disabled
+1960	628	svchost.exe	0xce0657b79080	9	-	0	False	2024-09-10 05:41:50.000000 UTC	N/A	Disabled
+2064	628	svchost.exe	0xce06578ed080	6	-	0	False	2024-09-10 05:44:23.000000 UTC	N/A	Disabled
+4332	2452	w3wp.exe	0xce06574ca080	0	-	0	False	2024-09-10 05:44:45.000000 UTC	2024-09-10 06:10:48.000000 UTC	Disabled
+1676	1628	taskhostw.exe	0xce0656e46080	6	-	1	False	2024-09-10 05:52:43.000000 UTC	N/A	Disabled
+900	4332	updatenow.exe	0xce0657ddb1c0	3	-	0	True	2024-09-10 06:08:23.000000 UTC	N/A	Disabled -> ICI updatenow.exe ----------------------------
+3628	3976	FTK Imager.exe	0xce065772d080	15	-	1	False	2024-09-10 06:09:42.000000 UTC	N/A	Disabled
+1564	628	svchost.exe	0xce0657a4f080	2	-	0	False	2024-09-10 06:12:41.000000 UTC	N/A	Disabled
+4656	1628	wermgr.exe	0xce0657303080	1	-	0	False	2024-09-10 06:14:57.000000 UTC	N/A	Disabled
+4648	1628	taskhostw.exe	0xce06574c8080	6	-	1	False	2024-09-10 06:14:58.000000 UTC	N/A	Disabled
+3184	1628	taskhostw.exe	0xce0656ea7600	9	-	0	False	2024-09-10 06:15:00.000000 UTC	N/A	Disabled
+318175	320511
+s	0xce06577c4080	314390	-	-	True	N/A	N/A	Disabled

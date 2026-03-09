@@ -1,0 +1,38 @@
+   10   1.184044    10.0.2.15 → 20.242.39.171 TLSv1.2 266 Client Hello (SNI=fe3.delivery.mp.microsoft.com)
+   12   1.412408 20.242.39.171 → 10.0.2.15    SSL 1514 
+   15   1.412859 20.242.39.171 → 10.0.2.15    TLSv1.2 1106 Server Hello, Certificate, Server Key Exchange, Server Hello Done
+   16   1.417913    10.0.2.15 → 20.242.39.171 TLSv1.2 212 Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+   18   1.646718 20.242.39.171 → 10.0.2.15    TLSv1.2 174 Change Cipher Spec, Encrypted Handshake Message, Application Data
+   19   1.647856    10.0.2.15 → 20.242.39.171 TLSv1.2 141 Application Data
+   20   1.648152    10.0.2.15 → 20.242.39.171 TLSv1.2 271 Application Data
+   22   1.648466    10.0.2.15 → 20.242.39.171 TLSv1.2 92 Application Data
+   23   1.648705    10.0.2.15 → 20.242.39.171 TLSv1.2 3720 Application Data
+   26   1.877424 20.242.39.171 → 10.0.2.15    TLSv1.2 92 Application Data
+   28   2.143183 20.242.39.171 → 10.0.2.15    TLSv1.2 848 Application Data
+   30   3.390717    10.0.2.15 → 20.242.39.171 TLSv1.2 129 Application Data
+   31   3.391050    10.0.2.15 → 20.242.39.171 TLSv1.2 7609 Application Data
+   36   3.659283 20.242.39.171 → 10.0.2.15    TLSv1.2 775 Application Data
+ 4004 573.511237    10.0.2.15 → 20.42.73.29  TLSv1.2 253 Client Hello (SNI=umwatson.events.data.microsoft.com)
+ 4006 573.734252  20.42.73.29 → 10.0.2.15    SSL 1514 
+ 4009 573.734694  20.42.73.29 → 10.0.2.15    TLSv1.2 1300 Server Hello, Certificate, Server Key Exchange, Server Hello Done
+ 4010 573.751679    10.0.2.15 → 20.42.73.29  TLSv1.2 212 Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+ 4016 573.975346  20.42.73.29 → 10.0.2.15    TLSv1.2 105 Change Cipher Spec, Encrypted Handshake Message
+ 4017 573.987056    10.0.2.15 → 20.42.73.29  TLSv1.2 261 Application Data
+ 4018 573.988825    10.0.2.15 → 20.42.73.29  TLSv1.2 1514 
+ 4020 573.989168    10.0.2.15 → 20.42.73.29  TLSv1.2 2719 Application Data
+ 4021 573.989228    10.0.2.15 → 20.42.73.29  TLSv1.2 210 Application Data
+ 4024 574.253218  20.42.73.29 → 10.0.2.15    TLSv1.2 757 Application Data
+ 4052 608.774473    10.0.2.15 → 20.198.118.190 TLSv1.2 153 Application Data
+ 4054 608.841572 20.198.118.190 → 10.0.2.15    TLSv1.2 223 Application Data
+ 5127 1030.988844    10.0.2.15 → 20.198.119.143 TLSv1.2 232 Client Hello (SNI=client.wns.windows.com)
+ 5128 1031.031064 20.198.119.143 → 10.0.2.15    SSL 1514 
+ 5131 1031.031961 20.198.119.143 → 10.0.2.15    TLSv1.2 1216 Server Hello, Certificate, Server Key Exchange, Server Hello Done
+ 5132 1031.041819    10.0.2.15 → 20.198.119.143 TLSv1.2 212 Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+ 5133 1031.082449 20.198.119.143 → 10.0.2.15    TLSv1.2 105 Change Cipher Spec, Encrypted Handshake Message
+ 5134 1031.086924    10.0.2.15 → 20.198.119.143 TLSv1.2 403 Application Data
+ 5135 1031.087941    10.0.2.15 → 20.198.119.143 TLSv1.2 1167 Application Data
+ 5137 1031.089085    10.0.2.15 → 20.198.119.143 TLSv1.2 301 Application Data
+ 5138 1031.122014 20.198.119.143 → 10.0.2.15    TLSv1.2 335 Application Data
+ 5140 1031.191677 20.198.119.143 → 10.0.2.15    TLSv1.2 333 Application Data, Application Data
+ 5141 1031.201161    10.0.2.15 → 20.198.119.143 TLSv1.2 273 Application Data
+ 5143 1031.237600 20.198.119.143 → 10.0.2.15    TLSv1.2 155 Application Data

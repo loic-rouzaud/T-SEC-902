@@ -1,0 +1,52 @@
+    5   0.948048    10.0.2.15 → 192.168.1.1  DNS 89 Standard query 0xba48 A fe3.delivery.mp.microsoft.com
+    6   0.955493  192.168.1.1 → 10.0.2.15    DNS 159 Standard query response 0xba48 A fe3.delivery.mp.microsoft.com CNAME glb.cws.prod.dcat.dsp.trafficmanager.net A 20.242.39.171
+   42  53.649524    10.0.2.15 → 192.168.1.1  DNS 70 Standard query 0x1e75 A c.pki.goog
+   43  53.658582  192.168.1.1 → 10.0.2.15    DNS 121 Standard query response 0x1e75 A c.pki.goog CNAME pki-goog.l.google.com A 216.58.200.163
+   51  53.738238    10.0.2.15 → 192.168.1.1  DNS 83 Standard query 0x0cff A ctldl.windowsupdate.com
+   52  53.745193  192.168.1.1 → 10.0.2.15    DNS 297 Standard query response 0x0cff A ctldl.windowsupdate.com CNAME ctldl.windowsupdate.com.delivery.microsoft.com CNAME wu-b-net.trafficmanager.net CNAME download.windowsupdate.com.edgesuite.net CNAME a767.dspw65.akamai.net A 23.58.93.34 A 23.58.93.26
+ 3999 573.276221    10.0.2.15 → 192.168.1.1  DNS 94 Standard query 0xa950 A umwatson.events.data.microsoft.com
+ 4000 573.283413  192.168.1.1 → 10.0.2.15    DNS 222 Standard query response 0xa950 A umwatson.events.data.microsoft.com CNAME blobcollector.events.data.trafficmanager.net CNAME onedsblobprdeus15.eastus.cloudapp.azure.com A 20.42.73.29
+ 5000 961.254292    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x628f A client.wns.windows.com
+ 5001 962.264774    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x628f A client.wns.windows.com
+ 5005 963.271806    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x628f A client.wns.windows.com
+ 5006 965.285095    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x628f A client.wns.windows.com
+ 5012 969.317121    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x628f A client.wns.windows.com
+ 5020 973.350091    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x413f A dns.msftncsi.com
+ 5021 974.366844    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x413f A dns.msftncsi.com
+ 5022 975.365407    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x01bd A client.wns.windows.com
+ 5023 975.386476    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x413f A dns.msftncsi.com
+ 5024 976.391862    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x01bd A client.wns.windows.com
+ 5025 977.409317    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x413f A dns.msftncsi.com
+ 5026 977.410441    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x01bd A client.wns.windows.com
+ 5030 979.409960    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x01bd A client.wns.windows.com
+ 5031 981.430394    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x413f A dns.msftncsi.com
+ 5035 983.424022    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x01bd A client.wns.windows.com
+ 5036 984.362257    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5f5d A dns.msftncsi.com
+ 5061 985.374754    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5f5d A dns.msftncsi.com
+ 5062 986.377705    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5f5d A dns.msftncsi.com
+ 5063 987.439921    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5087 A dns.msftncsi.com
+ 5067 988.410192    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5f5d A dns.msftncsi.com
+ 5068 988.466639    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5087 A dns.msftncsi.com
+ 5071 989.470831    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5087 A dns.msftncsi.com
+ 5072 989.476270    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x413d A client.wns.windows.com
+ 5073 990.502933    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x413d A client.wns.windows.com
+ 5074 991.508586    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5087 A dns.msftncsi.com
+ 5075 991.509126    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x413d A client.wns.windows.com
+ 5076 992.444270    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5f5d A dns.msftncsi.com
+ 5080 993.535088    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x413d A client.wns.windows.com
+ 5081 995.533074    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5087 A dns.msftncsi.com
+ 5082 996.455904    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5a69 A dns.msftncsi.com
+ 5085 997.489234    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5a69 A dns.msftncsi.com
+ 5086 997.545480    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0x413d A client.wns.windows.com
+ 5090 998.510093    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5a69 A dns.msftncsi.com
+ 5091 999.551271    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x7fc6 A dns.msftncsi.com
+ 5092 1000.532888    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5a69 A dns.msftncsi.com
+ 5093 1000.564184    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x7fc6 A dns.msftncsi.com
+ 5094 1001.599279    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x7fc6 A dns.msftncsi.com
+ 5098 1003.628088    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x7fc6 A dns.msftncsi.com
+ 5099 1004.536718    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x5a69 A dns.msftncsi.com
+ 5100 1007.629080    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0x7fc6 A dns.msftncsi.com
+ 5116 1029.383582    10.0.2.15 → 192.168.1.1  DNS 76 Standard query 0xf66d A dns.msftncsi.com
+ 5117 1029.412489  192.168.1.1 → 10.0.2.15    DNS 92 Standard query response 0xf66d A dns.msftncsi.com A 131.107.255.255
+ 5122 1030.919968    10.0.2.15 → 192.168.1.1  DNS 82 Standard query 0xa251 A client.wns.windows.com
+ 5123 1030.939687  192.168.1.1 → 10.0.2.15    DNS 141 Standard query response 0xa251 A client.wns.windows.com CNAME wns.notify.trafficmanager.net A 20.198.119.143

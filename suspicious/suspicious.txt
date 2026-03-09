@@ -1,0 +1,37 @@
+Tested IPs
+
+Public IP
+52.252.198.177 -> peu de paquets distribués dans l'analyse réseau.
+OrgName:        Microsoft Corporation -> probablement une màj windows
+Très peu probable que ce soit un serveur C2
+
+Public IP
+23.58.93.34 -> meme raison, peu de paquets distribués dans l'analyse réseau.
+OrgName:        Akamai Technologies, Inc. -> fournisseur CDN
+Très peu probable que ce soit un serveur C2
+
+Public IP
+104.26.10.240 -> peut etre cloudflare mais à verifier avec whois command
+OrgName:        Cloudflare, Inc.
+Très peu probable que ce soit un serveur C2
+
+Internal IP
+10.0.2.4 -> Requete http faite : 10.0.2.4 → 10.0.2.15 GET /Documents/shell.aspx
+gros traffic interne sur le reseau
+Beaucoup de GET / OPTIONS / PROPFIND → typique d’un scan ou interaction HTTP automatisée
+A peut etre testé des payloads, un C2 interne
+Encore étrange : 72  77.900603 PCSSystemtec_6b:6e:c6 → Broadcast    ARP 60 Who has 10.0.2.15? Tell 10.0.2.4
+
+Internal IP
+10.0.2.255 -> a fait un broadcast sur le reseau mais moins critique, à surveiller
+
+Internal IP
+10.0.2.3 -> Possiblement juste un hote sur le LAN, à surveiller
+
+
+
+Prochaines choses à faire :
+    - finir DL Volatility 3
+    - Découvrir l'outil
+    - Voir analyse
+    - Docker pour ouvrir le .exe et le tester -> voir comment faire
