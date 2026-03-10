@@ -1,0 +1,75 @@
+================ Precessus infos ================
+
+Pas grand chose à tirer de ce fichier
+-> KeNumberProcessors 4 = provient surement d'une VM
+
+--------------------------------------------------
+
+->
+Is64Bit True
+MachineType 34404
+layer_name WindowsIntel32e
+= Architechture x86_64
+
+================ List processus ================
+1.
+
+4    System
+300  smss.exe
+408  csrss.exe
+508  wininit.exe
+556  winlogon.exe
+628  services.exe
+640  lsass.exe
+= Ces processus la sont "normaux"
+
+De nombreux "svchost.exe" -> visiblement permettent d'heberger les services windows
+
+-------------------------------------------------
+2.
+
+3908 userinit.exe
+3976 explorer.exe
+
+Ces lignes nous donnent l'information de l'ouverture de session utilisateur, donc qlq s'est connecté
+
+-------------------------------------------------
+3.
+
+w3wp.exe -> WorldWide Web Worker Process: Il est chargé de traiter les requêtes web envoyées à un serveur Windows
+
+Donc je pense normal
+
+-------------------------------------------------
+4.
+
+3628 FTK Imager.exe -> Ca c'est etrange, c'est visiblement un outil forensic : outil d'enquete numerique
+
+en tout cas qlq a eu accès a ces analyses
+
+-------------------------------------------------
+5.
+
+900 updatenow.exe
+PPID : 4332
+CreateTime : 2024-09-10 06:08:23
+Wow64 : True
+
+----->> Ca c'est etrange | process parent w3wp.exe == Ce que j'en déduis : un serveur web a lancé un .exe arbitraire (updatenow.exe)
+Donc soit webshell ? (se renseigner) ou exploit web
+
+# Quoi d'autre ? -> timeline
+06:08 updatenow.exe lancé
+06:09 acquisition mémoire
+
+Donc probable hypothèse d'attaque :
+
+Internet
+   ↓
+IIS (w3wp.exe)
+   ↓
+exploitation web
+   ↓
+updatenow.exe (payload)
+   ↓
+activité malveillante
