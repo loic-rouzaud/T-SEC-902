@@ -24,3 +24,14 @@ Voir dans le dossier suspicious/suspicious.txt -> resultats de l'analyse
 - L'executer et voir ce que je peux en tirer
 - Potentiellement retro-engineer ce que je peux
 - Obfuscation ?
+
+# Command lines utilisées
+
+```sh
+python3 tool/volatility3/vol.py -f memdump.mem windows.pslist > txt_results_ram/results_ram_list.txt
+python3 tool/volatility3/vol.py -f memdump.mem windows.info > txt_results_ram/results_ram_info.txt
+python3 tool/volatility3/vol.py -f memdump.mem windows.malware.malfind > txt_results_ram/results_ram_mal.txt
+python3 tool/volatility3/vol.py -f memdump.mem windows.pstree > txt_results_ram/results_ram_tree.txt
+python3 tool/volatility3/vol.py -f memdump.mem windows.netscan > txt_results_ram/results_ram_netscan.txt
+python3 tool/volatility3/vol.py -f memdump.mem windows.cmdline > txt_results_ram/results_ram_cmdline.txt
+```

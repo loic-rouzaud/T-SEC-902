@@ -1,4 +1,4 @@
-command : ython3 tool/volatility3/vol.py -f memdump.mem windows.pslist --> liste des processus en mémoire
+command : python3 tool/volatility3/vol.py -f memdump.mem windows.pslist --> liste des processus en mémoire
 
 Volatility 3 Framework 2.28.0
 

@@ -1,3 +1,5 @@
+commande : python3 tool/volatility3/vol.py -f memdump.mem windows.netscan > txt_results_ram/results_ram_netscan.txt
+
 Volatility 3 Framework 2.28.0
 
 Offset	Proto	LocalAddr	LocalPort	ForeignAddr	ForeignPort	State	PID	Owner	Created
