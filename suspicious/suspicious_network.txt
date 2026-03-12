@@ -27,11 +27,3 @@ Internal IP
 
 Internal IP
 10.0.2.3 -> Possiblement juste un hote sur le LAN, à surveiller
-
-
-
-Prochaines choses à faire :
-    - finir DL Volatility 3
-    - Découvrir l'outil
-    - Voir analyse
-    - Docker pour ouvrir le .exe et le tester -> voir comment faire

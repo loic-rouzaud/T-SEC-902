@@ -35,3 +35,21 @@ python3 tool/volatility3/vol.py -f memdump.mem windows.pstree > txt_results_ram/
 python3 tool/volatility3/vol.py -f memdump.mem windows.netscan > txt_results_ram/results_ram_netscan.txt
 python3 tool/volatility3/vol.py -f memdump.mem windows.cmdline > txt_results_ram/results_ram_cmdline.txt
 ```
+
+# Prochaines choses à faire
+  
+  - Volatility3
+  - Ghidra -> tester les dumps pour retro engineer tous ça
+  - 
+  - Découvrir les outils
+  - Docker pour ouvrir le .exe ? Ou une VM UTM
+  - architecture x86_64
+  - encore des analyses RAM à faire.
+
+
+Ghidra installé -> rappel commande pour lancer : 
+
+```bash
+cd ~/cyber-tools/ghidra_12.0.4_PUBLIC
+./ghidraRun 
+```
