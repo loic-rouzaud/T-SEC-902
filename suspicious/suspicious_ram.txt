@@ -73,3 +73,25 @@ exploitation web
 updatenow.exe (payload)
    ↓
 activité malveillante
+
+
+Chemin vers le malware : C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\updatenow.exe
+
+Dossier Startup -> programmes ici sont exécutés au démarrage de Windows
+
+====================== Conclusion de TOUT ÇA : ========================
+
+- vecteur d’attaque
+attaque web sur IIS
+
+- payload
+updatenow.exe
+
+- persistence
+Startup folder
+
+- cible
+Windows Server IIS
+=====================================================================
+
+================ List processus ================
